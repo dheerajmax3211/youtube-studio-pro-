@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Build artifacts & packaged app bundles / DMGs
+build/
+*.dmg
+*.app/
+
+# Large ML model weights (download separately)
+engines/clipper/assets/models/
+
+# Generated clips, working projects & local backups
+engines/clipper/output/
+engines/clipper/projects/
+engines/clipper/backups/
+*.mp4
+*.mov
+
+# Python & Node caches/dependencies
+__pycache__/
+*.py[cod]
+.venv
+.venv/
+venv
+venv/
+node_modules/
+
+# Secrets & local env
+.env
+.env.*
+.claude/
